@@ -1,0 +1,30 @@
+<div class="well well-lg">
+  <ng2-smart-table [settings]="settings" (userRowSelect)="onCustom($event)" [source]="data"></ng2-smart-table>
+</div>
+
+<div class="containter">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="map-canvas"></div>
+    </div>
+    </div>
+  </div>
+  <!--- modal  -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">   
+                Store
+        </div>
+        <div class="modal-body">
+        <div id="map-canvas-modal"  >
+
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>

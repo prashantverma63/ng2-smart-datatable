@@ -1,0 +1,115 @@
+.ng2-smart-titles{
+    background-color: #4bb2cf;
+}
+
+:host /deep/ ng2-smart-table table{
+    border: 1px solid grey;
+}
+
+:host /deep/ ng2-smart-table thead > tr.ng2-smart-titles  { 
+    background-color:#4bb2cf;  
+    color :white !important;
+    font-size: 12px;
+}
+:host /deep/.ng2-smart-actions{
+   padding:7px;
+}
+
+:host /deep/ .ng2-smart-action.ng2-smart-action-add-add .btn.btn-info {
+    padding: 4px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+:host /deep/ .ng2-smart-action.ng2-smart-action-add-create .btn.btn-info{
+    font-size: 11px;
+    padding: 2px;
+}
+
+:host /deep/ .ng2-smart-action.ng2-smart-action-add-cancel .btn.btn-info{
+    font-size: 11px;
+    padding: 2px;
+}
+
+:host /deep/ ng2-smart-table thead > tr.ng2-smart-titles > th a {
+    color: white !important;
+    font-size: 10px !important;
+}
+
+:host /deep/ ng2-smart-table thead > tr.ng2-smart-filters > th {
+    width:8%;
+}
+
+:host /deep/ ng2-smart-table thead > tr.ng2-smart-filters > th >div.ng2-smart-filter>input.ng-pristine.ng-valid.ng-touched {
+    width:5%;
+}
+
+:host /deep/ .ng2-smart-sort-link sort{
+    color: black !important;
+    font-size: 12px;
+}
+
+:host /deep/ .ng2-smart-sort-link sort a{
+    color: black !important;
+    font-size: 12px;
+}
+
+:host /deep/ ng2-smart-table tbody tr{
+    background-color:#d4dbe2;
+}
+
+:host /deep/ ng2-smart-table tbody tr td{
+    border: 1px solid grey;
+}
+
+:host /deep/ [_nghost-c5] .ng2-smart-filter[_ngcontent-c5] input{
+    width: 60% !important;
+    height: 28px !important;
+}
+
+.container{
+    margin-top: 5%;
+}
+
+#linkbuget{
+    margin-top: 2%;
+}
+
+#transmission{
+    margin-top: 2%;
+}
+
+
+.btn.btn-info.btn-lg{
+    width: 70px;
+    font-size: 11px;
+    margin-left: 2%;
+    background-color:#4bb2cf;
+}
+
+/* Upload button */
+
+.uploadBox{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.error{
+    color:red;
+}
+
+.duplicateerror{
+    background:peru;
+}
+
+
+.instClass tbody tr td{
+    font-size: 11px;
+}
+
+.missingerror{
+    background:peru;
+}
+
